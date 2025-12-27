@@ -1,0 +1,12 @@
+# Absolute path to the dataset root (Optional, but recommended if you have path issues)
+path: 
+
+# Relative paths to images (YOLO automatically infers the label path by swapping /images/ with /labels/)
+train: images/train
+val: images/train  # Using same as train for now
+
+# Number of classes
+nc: 5
+
+# Class Names (MUST match the IDs in your label files)
+names:
